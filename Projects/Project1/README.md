@@ -8,7 +8,7 @@ In order to create a guest os first you need to select new. Then create the name
 
 1. Yes, but you will need to use the shared folders option on VirtualBox or similar software.
 2. A snapshot is only a copy of the disk file at a certain point. (A sort of fail safe.) A template is the entire virtual machine and takes up much more space.
-3. In my network, I am running a Personal Computer that is running Windows. On that computer I have VirtualBox as the hypervisor and that hypervisor has guest running thorugh it.
+3. In my network, I am running a Personal Computer that is running Windows. On that computer I have VirtualBox as the hypervisor and that hypervisor has guest running thorugh it. (Check issues for Hypervisor diagram)
 ## Part 3:
 
 1. In order to enable Host-only networking, you will need to go to your VM's settings then network and in the drop down(attached to box go to Host-only. 
