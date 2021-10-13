@@ -1,25 +1,36 @@
 # Project 2
 
 ## Container Technologies
-- Container platform 1
+- Docker
 - Container platform 2
 
 ## How to install
-- installation instructions (likely command line instructions) for installing each on your system (your VM, if you follow my advice)
+-Docker
+  -First, I updated the system 
+  -Next, run sudo apt install docker and sudo apt install docker.io
+  -Next, run sudo snap install docker (I use snap on my machine)
+-Kubernetes (Minikube
+  -First, run wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 (Most installations use snapd or wget so iused wget)
+  -Next, run curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
 
 ## Pulling a container image
-- Pick a base image to tinker with.  Write instructions for pulling each with each
-- How to view container images on the system
+- Docker
+  -For docker run sudo docker pull hello-world
+  -To view images on the system run docker images
+- Minikube
+  -I had trouble getting this one to work but first you create a deployment in minikube.
+  -Next, you would use
 
 ## Running a container
-- Define the modes below and why you would want to pick each
-- Initializing versus running the container, and why there is a difference
+- Attached and detached modes
+  -
+- Initializing gets the files ready to run the container and  run actually starts the container
 - Run and enter shell
-- ~~Run in sandbox mode~~ removed 10/3
-- Run in detached mode
+- To run detatched mode in docker run docker run -d hello-world
+- 
 
 ## Logs & Status
-- Finding out the status of the container
+- Run sudo systemctl status docker
 - Reading the logs of a running container
 
 ## Stopping a container
