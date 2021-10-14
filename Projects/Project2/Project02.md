@@ -25,20 +25,25 @@
   -Next, you would use
 
 ## Running a container
-- Attached and detached modes
-  -
+- Detached mode
+  -This means that it runs in the background and the there is no inputs to the container. The container does not display.
 - Initializing gets the files ready to run the container and  run actually starts the container
-- Run and enter shell
 - To run detatched mode in docker run docker run -d hello-world
-- 
 
 ## Logs & Status
-- Run sudo systemctl status docker
+-Docker
+  - Run sudo systemctl status docker
 ![docker status](https://user-images.githubusercontent.com/77396920/137234478-e909c7fa-e4e1-4119-8de4-40f5db311670.PNG)
-
-- Reading the logs of a running container
+  -To see logs use docker logs (arguements you want to add)
+-Minikube
+  -To see logs use minikube logs (arguements you want to add)
+  -To see status use minikube status (arguements you want to add)
 
 ## Stopping a container
-- Pause
-- Restart / resume
-- Stop / kill
+- Docker
+  -To pause use docker pause
+  -To restart use docker restart
+  -To stop use docker stop 
+- Minikube
+  -To pause use minikube pause (arguements you want to add)
+  -To stop use minikube stop (arguements you want to add)
