@@ -16,7 +16,10 @@
 ## Pulling a container image
 - Docker
   -For docker run sudo docker pull hello-world
-  -To view images on the system run docker images
+  ![docker run](https://user-images.githubusercontent.com/77396920/137234459-f0fc430c-1708-458e-ae77-544b15147e2a.PNG)
+  -To view images on the system run   docker images hello-world
+  ![docker view](https://user-images.githubusercontent.com/77396920/137234570-cd217b3f-2739-40ea-9578-caae6e35f42f.PNG)
+
 - Minikube
   -I had trouble getting this one to work but first you create a deployment in minikube.
   -Next, you would use
@@ -31,6 +34,8 @@
 
 ## Logs & Status
 - Run sudo systemctl status docker
+![docker status](https://user-images.githubusercontent.com/77396920/137234478-e909c7fa-e4e1-4119-8de4-40f5db311670.PNG)
+
 - Reading the logs of a running container
 
 ## Stopping a container
