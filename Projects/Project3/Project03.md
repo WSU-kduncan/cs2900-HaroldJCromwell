@@ -10,4 +10,12 @@ To create a volume you want to run docker volume create volumeName. To run a con
 -In docker to build an image, you need to run: docker build (with a PATH or url). In order to create a dockerfile you will need to add the lines: 
 
 FROM "any base image"
-COPY 
+
+COPY "this will copy files from a source and place them in the a destination provided by the user"
+
+RUN "a command that will run with the dockerfile"
+
+These will be used in  most dockerfiles and are the bases for writing dockerfiles.
+
+
+-
