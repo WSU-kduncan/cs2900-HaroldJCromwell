@@ -7,6 +7,7 @@ To create a volume you want to run docker volume create volumeName. To run a con
 -Minikube has a mount called 9P. To mount with 9P, you would run minikube mount sourceFolder:targetfolder
 
 ## 2
+### Part 1:
 -In docker to build an image, you need to run: docker build (with a PATH or url). In order to create a dockerfile you will need to add the lines: 
 
 FROM "any base image"
@@ -17,6 +18,7 @@ RUN "a command that will run with the dockerfile"
 
 These will be used in  most dockerfiles and are the bases for writing dockerfiles.
 
+### Part 2:
 -Even though it is possible to build image with minikubes, the steps to do so use docker image buildingto create the image so I went with buildah to complete the second part of 2.
 
--adfasd
+-To install buildah you need to used the command yum -y install buildah (the docs for buildah used yum so I followed). In order to create an image you will need to run the command: buildah bud -t dockerfilename. 
