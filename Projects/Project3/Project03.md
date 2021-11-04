@@ -6,7 +6,7 @@ To create a volume you want to run docker volume create volumeName. To run a con
 
 -Minikube has a mount called 9P. To mount with 9P, you would run minikube mount sourceFolder:targetfolder
 
-##2
+## 2
 -In docker to build an image, you need to run: docker build (with a PATH or url). In order to create a dockerfile you will need to add the lines: 
 
 FROM "any base image"
