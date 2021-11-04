@@ -17,5 +17,6 @@ RUN "a command that will run with the dockerfile"
 
 These will be used in  most dockerfiles and are the bases for writing dockerfiles.
 
+-Even though it is possible to build image with minikubes, the steps to do so use docker image buildingto create the image so I went with buildah to complete the second part of 2.
 
--
+-adfasd
